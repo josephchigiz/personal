@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(41, 40, 40);
+  position: relative;
+
+  @media (max-width: 600px) {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-in-out;
+}
+
+a:hover::after {
+  /* text-decoration-line: underline; */
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  max-width: 80%;
+  margin: auto;
+}
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5rem;
+}
+
+.topnav_menu {
+  @media (max-width: 600px) {
+    position: fixed;
+    inset: 0;
+    padding: 16px;
+    background-color: rgb(20, 56, 61);
+    translate: 100vw 0;
+    transition: translate 0.5s ease-in-out;
+  }
+}
+
+.topnav_menu {
+  @media (max-width: 600px) and (prefers-reduced-motion){
+    translate: 0;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+  }
+}
+
+.topnav_open {
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.topnav_open[aria-expanded='true']+.topnav_menu {
+    translate: 0;
+
+    @media (prefers-reduced-motion) {
+      opacity: 1;
+    }
+}
+
+.topnav_open img {
+  width: 2.0rem;
+}
+
+.topnav_close {
+  display: block;
+  margin-top: 1.5rem;
+  margin-inline-start: auto;
+  margin-block-end: 8rem;
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.close{
+  width: 2.5rem;
+}
+
+.topnav_links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.topnav_item {
+  list-style: none;
+}
+
+.hero-div {
+  height: 200px;
+  background-color: grey;
+  text-align: center;
+}
+
+.hero-img {
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 5px solid white;
+}
+
+p {
+  padding-top: 15px;
+  width: 60%;
+  margin: auto;
+  font-size: 0.9rem;
+  font-weight: 400;
+}

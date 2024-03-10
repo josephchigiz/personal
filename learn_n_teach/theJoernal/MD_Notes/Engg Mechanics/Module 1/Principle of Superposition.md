@@ -1,0 +1,1 @@
+"It states that the net response at a given time aand place, caused by two or more [[Force]](s) is the sum of the responses that would have been caused by the forces individually."

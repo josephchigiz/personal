@@ -1,0 +1,23 @@
+1. Code
+2. Pics & Wallpapers
+3. Videos
+4. Apps -ColorWall
+	-Blanket
+	-Flameshot
+	-FDM
+	-Jellyfin
+	-mpv, notify-osd, rofi
+	-Tabby
+	-Telegram
+	-Upscaler
+	-Vlc
+	-Vim
+	-Zoom
+	-Brave
+	-VsCode
+	-Spotify
+5. Extensions -Clipboard
+	      -GsConnect
+	      -Caffeine
+	      -Coverflow ALT-Tab
+	      -User Themes

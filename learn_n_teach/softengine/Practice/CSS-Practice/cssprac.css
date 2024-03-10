@@ -1,0 +1,26 @@
+h1
+{
+    color: green;
+}
+
+p
+{
+    color: blue;
+}
+
+li
+{
+    list-style-type: decimal-leading-zero;
+    color: red;
+}
+
+.different
+{
+    list-style-type: square;
+    background-color: aqua;
+}
+li.different
+{
+    font-style: italic;
+    font-weight: bold;
+}

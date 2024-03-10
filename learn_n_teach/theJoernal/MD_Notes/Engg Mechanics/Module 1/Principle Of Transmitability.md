@@ -1,0 +1,1 @@
+- "States that the point of application of [[Force]] a body can be moved anywhere along its ine of action, without changing the external reaction forces of a rigid body." #Physics

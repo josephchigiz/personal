@@ -1,0 +1,1 @@
+*When all [[Force]]s are acting in the same plane*

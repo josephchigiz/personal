@@ -1,0 +1,1 @@
+- *When the line of action of [[Force]](s) is acting along the same line for a system*

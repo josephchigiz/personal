@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+    background-color: beige;
+}
+
+.container
+{
+    border: 5px solid #ffee00;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.container > div{
+    background-color: aqua;
+    border: 1px solid white;
+    width: 300px;
+}
+.home{
+    flex-grow: 4;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+.search{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+
+}
+.login{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    
+}

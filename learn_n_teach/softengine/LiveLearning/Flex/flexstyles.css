@@ -1,0 +1,47 @@
+.flex-container
+{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.flex-items
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    /* width: 150px; */
+    /* height: 350px; */
+    /* font-size: 50px; */
+    /* margin: 10px; */
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+}
+
+.w-6
+{
+    width: 100px;
+}
+
+/* .flex-items:first-child */
+/* { */
+    /* background-color: aqua; */
+    /* flex-grow: 3; */
+/* } */
+@media screen and (max-width: 820px) {
+    .flex-container
+    {
+        flex-wrap: wrap;
+    }
+    .flex-items:last-child
+    {
+        display: none;
+    }
+}

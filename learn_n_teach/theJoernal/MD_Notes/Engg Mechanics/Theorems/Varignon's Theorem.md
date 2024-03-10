@@ -1,0 +1,1 @@
+- “The theorem states that the [[Torque]]of a resultant of two [[Concurrent Forces]] about any point is equal to the algebraic sum of the torques of its components about the same point.”

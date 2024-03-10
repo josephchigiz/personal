@@ -1,0 +1,1 @@
+*If the [[Force]](s) applied to a body are such that their lines of action meet at a single point*
