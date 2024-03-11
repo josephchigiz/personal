@@ -41,6 +41,10 @@ button {
   border-radius: 0.3125rem;
 }
 
+main {
+  height: 100vh;
+}
+
 #welcome-scr {
   display: flex;
   flex-direction: column;
@@ -90,7 +94,8 @@ button {
 }
 
 .count-div {
-  margin-top: 10%;
+  /* margin-top: 10%; */
+  /* padding-top: 10%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +103,7 @@ button {
 }
 
 #welcome-el {
-  margin-top: 1.875rem;
+  /* margin-top: 1.875rem; */
   font-size: 2rem;
   font-weight: 300;
   text-decoration:underline #cfeecf;
