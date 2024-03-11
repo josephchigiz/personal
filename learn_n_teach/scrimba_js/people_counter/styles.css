@@ -1,5 +1,4 @@
 :root {
-  /* font-family: "Open Sans", sans-serif; */
   font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-variation-settings:
@@ -84,7 +83,6 @@ main {
 }
 
 #main-scr {
-  /* todo: set display to none*/
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -117,10 +115,27 @@ main {
   border-radius: 5px;
 }
 
+#increment-btn:hover {
+  cursor: pointer;
+}
+
+#increment-btn:active {
+  cursor: pointer;
+  background-color: #f97f6e;
+}
+
 #save-btn {
   /* background: darkgreen; */
   background: #4AA96C;
   border-radius: 5px;
+}
+
+#save-btn:hover, #save-btn:active {
+  cursor: pointer;
+}
+
+#save-btn:active {
+  background-color: #7ac895;
 }
 
 .fun-div {
