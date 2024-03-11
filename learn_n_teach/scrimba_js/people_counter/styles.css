@@ -1,0 +1,128 @@
+:root {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 16px;
+}
+
+body {
+  background-image: url("library1.png");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+h2 {
+  font-size: 3.125rem;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  color: white;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  border: none;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 0.3125rem;
+  border-radius: 0.3125rem;
+}
+
+#welcome-scr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  height: 100vh;
+
+  label {
+    font-size: 1rem;
+  }
+
+  input[name="name"] {
+    padding: 0.5rem;
+    width: 40%;
+    margin: 1rem 0 0.2rem 0;
+    border: 1px inset rgb(175, 173, 173);
+    border-radius: 5px;
+
+    :focus {
+      outline-color: rgb(180, 255, 180);
+    }
+  }
+
+  input[type="button"] {
+    width: 20%;
+    margin-top: 0.2rem;
+    border: none;
+    padding: 0.4rem;
+    border-radius: 5px;
+    background-color: #F55C47;
+    color: white;
+  }
+}
+
+#main-scr {
+  /* todo: set display to none*/
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.count-div {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-el {
+  margin-top: 1.875rem;
+  font-size: 2rem;
+  font-weight: 300;
+  text-decoration:underline #cfeecf;
+  color: #9FE6A0;
+}
+
+#increment-btn {
+  /* background: darkred; */
+  background: #F55C47;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+}
+
+#save-btn {
+  /* background: darkgreen; */
+  background: #4AA96C;
+  border-radius: 5px;
+}
+
+.fun-div {
+  justify-self:flex-end;
+}
+#have-fun {
+  color: #9FE6A0;
+  font-weight: lighter;
+  font-size: 3rem;
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <main>
+      <div id="welcome-scr">
+        <p id="welcome-el">Let's count the Thinkpads we spot in the library.</p>
+        <label for="name">Welcome! Please enter your first name below:👇</label>
+        <input id="my-name" type="text" name="name">
+        <input type="button" name="submit" id="submit-btn" value="SUBMIT" onclick="greetings()">
+      </div>
+
+      <div id="main-scr">
+        <div class="count-div">
+          <h1 style="color: white; font-size: 2.5rem;">Thinkpads Spoted:</h1>
+          <h2 id="count-el" style="color: white;">0</h2>
+          <button id="increment-btn" onclick="increment()">SEEN ONE</button>
+          <!-- 2. Create a SAVE button.
+              Set the id to "save-btn" and call the save() function when it's clicked -->
+          <button id="save-btn" onclick="save()">SAVE</button>
+          <p id="save-el" style="color: white;">Previous Entries: </p>
+        </div>
+        <div class="fun-div">
+          <p id="have-fun">Have fun counting, </p>
+        </div>
+      </div>
+
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
