@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "8264e4c66974818b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e38753bcd5057a6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6978b6d727de14a6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b1a6dfe98cb50ae1",
+    "type": "split",
+    "children": [
+      {
+        "id": "53346d9dd40a5f1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ad66c1c880df306",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d3910b9601c00ed0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Displaying",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58cc4b6a3a81a662",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8519f4177ba9c32c",
+    "type": "split",
+    "children": [
+      {
+        "id": "106f2a5260a7ad96",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43fad7dbabdbc78b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c413aea1ed8e6bdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4301c8c3f4cb1c6b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf04c3c4b60228ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "6978b6d727de14a6",
+  "lastOpenFiles": [
+    "Fabric.md",
+    "Excalidraw/Drawing 2024-06-01 08.32.11.excalidraw.md",
+    "JavaScript Events.md",
+    "JavaScript Object Constructors.md",
+    "Excalidraw",
+    "Displaying JavaScript Objects.md",
+    "JavaScript Object Methods.md",
+    "JavaScript Display Objects.md",
+    "JavaScript Object Properties.md",
+    "OBJECTS.md",
+    "FUNCTIONS.md",
+    "2024-05-27.md",
+    "Untitled.canvas",
+    "2024-05-26.md",
+    "primitives.md",
+    "Pasted image 20240526163730.png",
+    "Pasted image 20240526163248.png",
+    "Pasted image 20240526162723.png",
+    "Harpal.md",
+    "return.md",
+    "JavaScript.md"
+  ]
+}
