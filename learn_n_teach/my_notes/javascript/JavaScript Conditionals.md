@@ -204,5 +204,23 @@ authenticated ? renderApp() : renderLogin();
 //If the condition is true, the app will be rendered, if false, the login will be rendered
 ```
 
+### btw
 
+To embed code in a string, we use backticks. You then wrap the variable or expression inside `${ }` and the result will be included in the string.
 
+```js
+const name = "Joe";
+
+const greeting = `Hello ${name}!`;
+console.log(greeting); //Hello Joe!
+```
+
+You can use it to join two strings:
+
+```js
+const firstName = "Joseph";
+const secondName = "Ochego";
+
+const greeting = `Hello ${firstName} ${secondName}!`;
+console.log(greeting); //Hello Joseph ochego!
+```
