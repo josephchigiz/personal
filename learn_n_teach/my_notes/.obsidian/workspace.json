@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e38753bcd5057a6c",
+        "id": "64a92fdac684ad36",
         "type": "tabs",
         "children": [
           {
-            "id": "6978b6d727de14a6",
+            "id": "eb6f9bbca1e6b0e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "javascript/JavaScript Conditionals.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,12 +65,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "8519f4177ba9c32c",
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "javascript/JavaScript Conditionals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "javascript/JavaScript Conditionals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "javascript/JavaScript Conditionals.md"
+              }
             }
           }
         ]
@@ -140,8 +148,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6978b6d727de14a6",
+  "active": "0ad66c1c880df306",
   "lastOpenFiles": [
+    "javascript/OBJECTS.md",
+    "javascript/FUNCTIONS.md",
+    "javascript/JavaScript Conditionals.md",
+    "javascript/JavaScript Object Constructors.md",
+    "javascript/JavaScript Object Methods.md",
+    "javascript/JavaScript Object Properties.md",
+    "javascript/JavaScript Events.md",
+    "javascript/JavaScript Display Objects.md",
     "Fabric.md",
     "Excalidraw/Drawing 2024-06-01 08.32.11.excalidraw.md",
     "JavaScript Events.md",
