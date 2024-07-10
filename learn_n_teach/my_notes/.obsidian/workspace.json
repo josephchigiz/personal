@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d56455ed8ba1f749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "javascript/Regular Expressions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "javascript/JavaScript Conditionals.md",
+                "file": "javascript/Regular Expressions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "javascript/JavaScript Conditionals.md",
+                "file": "javascript/Regular Expressions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "javascript/JavaScript Conditionals.md"
+                "file": "javascript/Regular Expressions.md"
               }
             }
           }
@@ -148,10 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eb6f9bbca1e6b0e6",
+  "active": "d56455ed8ba1f749",
   "lastOpenFiles": [
-    "common mistake made when using `.md",
+    "RegExp.md",
+    "javascript/Regular Expressions.md",
+    "`[[RegExp.md",
     "javascript/JavaScript Conditionals.md",
+    "common mistake made when using `.md",
     "Logical Operators.md",
     "javascript/OBJECTS.md",
     "javascript/FUNCTIONS.md",
@@ -177,9 +193,6 @@
     "primitives.md",
     "Pasted image 20240526163730.png",
     "Pasted image 20240526163248.png",
-    "Pasted image 20240526162723.png",
-    "Harpal.md",
-    "return.md",
-    "JavaScript.md"
+    "Pasted image 20240526162723.png"
   ]
 }

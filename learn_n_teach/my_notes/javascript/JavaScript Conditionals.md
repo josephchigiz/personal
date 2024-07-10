@@ -204,7 +204,7 @@ authenticated ? renderApp() : renderLogin();
 //If the condition is true, the app will be rendered, if false, the login will be rendered
 ```
 
-### btw
+### btw!
 
 To embed code in a string, we use backticks. You then wrap the variable or expression inside `${ }` and the result will be included in the string.
 
